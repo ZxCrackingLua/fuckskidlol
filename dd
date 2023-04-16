@@ -137,7 +137,7 @@ end
 Settings = game:service'HttpService':JSONEncode(readfile(Name))
 end)
 
-local LibName = "MimicFolder"
+local LibName = MimicFolder
 
 function Kavo:ToggleUI()
     if game.Players.LocalPlayer.PlayerGui[LibName].Enabled then
